@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #04bfbf, #d5ffff);
+  }
+  .menu {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    background: #d5ffff;
+    flex-direction: column;
+    width: 1000px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background: #025959;
+    color: white;
+    font-family:Reem Kufi;
+  }
+  .campos-preencher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    border: 1px solid transparent;
+    border-bottom-color: #025959;
+    color: whitesmoke;
+  }
+  .span {
+    color: black;
+    margin: 0px 60px 0px 60px;
+    font-family:Reem Kufi;
+  }
+  .card {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+    background: write;
+    color: whitesmoke;
+  }
+  .slepping-guy{
+    padding: 10px;
+  }
+  .fa-home{
+    color: black;
+  }
+  .adicionar {
+    color: black;
+    background-color: #9fd9d9;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family:Reem Kufi;
+  }
+  .adicionar:hover {
+    color: black;
+    background-color: white;
+  }

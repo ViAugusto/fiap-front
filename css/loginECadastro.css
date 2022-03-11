@@ -1,0 +1,74 @@
+html,
+body {
+  background-image: url("https://www.atribuna.com.br/storage/Opini%C3%A3o/Leonardo_Barbosa_Delfino/censurado2720853912529.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+.container {
+  height: 100%;
+  align-content: center;
+}
+.card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  font-family:Reem Kufi;
+}
+.card-header h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family:Reem Kufi;
+}
+.input-group-prepend span {
+  width: 50px;
+  background-color: #9FD9D9;
+  color: black;
+  border: 0 !important;
+}
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+.login_btn {
+  color: black;
+  background-color: #9FD9D9;
+  font-family:Reem Kufi;
+}
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+.links {
+  color: white;
+}
+.links a {
+  margin-left: 4px;
+}
+.form-group{
+    display:flex;
+    justify-content: center;
+}
+a{
+    color: rgb(209, 209, 209);
+}
+.form-control{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color:white;
+}
+.form-control:placeh{
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.footer-link:hover{
+    color: white;
+}
